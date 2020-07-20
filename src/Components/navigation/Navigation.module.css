@@ -1,0 +1,22 @@
+.navigationList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigationListItem {
+    margin: 20px;
+}
+
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .activeLink {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
